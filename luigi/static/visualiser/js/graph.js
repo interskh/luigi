@@ -125,7 +125,7 @@ Graph = (function() {
         };
     }
 
-    var graphWidth = 1110;
+    var graphWidth = 1920;
 
     function DependencyGraph(containerElement) {
         this.svg = $(svgElement("svg")).appendTo($(containerElement));
